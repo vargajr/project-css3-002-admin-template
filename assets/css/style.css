@@ -11,9 +11,6 @@ body {
 .header--dark {
     background-color: rgb(51, 57, 64);
     color: rgb(236, 236, 236);
-}
-
-.header--dark {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -60,6 +57,7 @@ body {
     display: inline-block;
     border: 0;
     border-radius: 4px 0 0 4px;
+    border: solid 1px rgb(255, 255, 255);
     padding: 0.375rem 0.75rem;
     font-size: 1.2rem;
     outline: none;
@@ -67,7 +65,7 @@ body {
 }
 
 .search__input:focus {
-    border: 1px solid rgb(128, 189, 255);
+    border-color: rgb(128, 189, 255);
 }
 
 .btn {
@@ -88,9 +86,10 @@ body {
 }
 .search__btn {
     background-color: rgb(0, 123, 255);
+    border: solid 2px rgb(0, 123, 255);
     border-radius: 0 4px 4px 0;
-    padding: 0.375rem 0.75rem 0.46rem;
-    font-size: 1.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
 }
 
 .search__btn:focus {
@@ -118,6 +117,7 @@ body {
     flex: 0 0 5rem;
     max-width: 5rem;
     background-color: rgb(33, 37, 41);
+    color: rgb(236, 236, 236);
 }
 
 .content {
